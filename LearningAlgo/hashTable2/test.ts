@@ -4,7 +4,7 @@ function reverseArray(arr: number[]): number[] {
   return arr.reverse();
 }
 
-function solution(ingredient) {
+export default function solution(ingredient) {
     let cnt = 0;
     const take = (str = ingredient.join('')) => {
         if (str.includes('1231')) {
