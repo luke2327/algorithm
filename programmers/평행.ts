@@ -1,4 +1,4 @@
-function solution(dots) {
+export default function solution(dots) {
     const [[x1, y1], [x2, y2], [x3, y3], [x4, y4]] = dots;
 
     console.log((x1 - x2) / (y1 - y2), (x3 - x4) / (y3 - y4))

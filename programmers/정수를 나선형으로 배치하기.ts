@@ -1,4 +1,4 @@
-function solution(n) {
+export default function solution(n) {
     let answer: any[] = Array(n).fill(null).map(() => []);
     const dx = [1,0,-1,0];
     const dy = [0,1,0,-1];
